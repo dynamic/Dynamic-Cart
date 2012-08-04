@@ -1,0 +1,74 @@
+/*=== Product ===*/
+.ProductImage {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.ProductInfo {
+	margin-left: 270px;
+}
+
+/* PayPal Button */
+fieldset p {
+	margin-bottom: 0;
+}
+input.button {
+	margin-top: 3px;
+}
+
+/*=== ProductGroup ===*/
+.ProductGroup {
+	list-style: none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+	.ProductGroup li {
+		list-style-type: none;
+		margin: 0px 0 20px;
+		padding: 0;
+		min-height: 230px;
+		border-bottom: 1px solid #CCC;
+	}
+	
+		.ProductGroup .ProductThumb {
+			width: 150px;
+			margin: 0 15px 15px 0;
+			float: left;
+		}
+				
+		.ProductGroup li img {
+			display: block;
+		}
+		
+		.ProductGroup li.last {
+			border-bottom: none;
+		}
+
+
+
+/* SideBar */ 
+.sidebox {
+	margin: 0 0 20px;
+}
+
+/* Featured Products */
+.FeaturedProducts:after {
+	content: "";
+}
+	.FeaturedProducts li {
+		padding: 5px;
+		min-height: 80px;
+	}
+		.FeaturedProducts .ProductPreview {
+			float: left;
+			margin: 0 10px 0 0;
+		}
+		.FeaturedProducts .ProductBrief {
+			margin-left: 90px;
+		}
+			.FeaturedProducts li a {
+				padding: 0;
+			}
+			.FeaturedProducts li p {
+				margin: 5px 0;
+			}
