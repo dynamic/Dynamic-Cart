@@ -10,7 +10,7 @@
 				<b>Price:</b> $Price.Nice<br>
 				<b>Item#:</b> $ProductCode
 			</p>
-			$ShareIcons
+
 			<div class="content">$Content</div>
 			
 			<p class="CartButton">[mini_cart_item name="$Title.XML" price="$Price.XML"]Add To Cart[/mini_cart_item]</p>
