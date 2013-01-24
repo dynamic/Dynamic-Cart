@@ -64,6 +64,7 @@ class CartProductGroup extends Page {
 		return $holderIDs;
 	}
 	
+	
 	/**
 	 * Products function.
 	 * 
