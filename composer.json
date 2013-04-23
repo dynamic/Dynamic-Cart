@@ -5,7 +5,8 @@
     "license": "BSD-3-Clause",
     "type": "silverstripe-module",
     "require": {
-    	"silverstripe/framework": ">=3.0"
+    	"silverstripe/framework": ">=3.0",
+    	"rywa/silverstripe-minicart": "dev-master"
     },
    
     "authors": [
