@@ -1,14 +1,13 @@
 {
-    "name": "dynamic/mini-cart-catalog",
-    "description": "The Dynamic Mini Cart Product Catalog",
+    "name": "dynamic/minicart-products",
+    "description": "The Dynamic Mini Cart Product Catalog for SilverStripe",
     "keywords": ["silverstripe", "minicart", "module", "product", "catalog"],
     "license": "BSD-3-Clause",
     "type": "silverstripe-module",
     "require": {
     	"silverstripe/framework": ">=3.0",
     	"rywa/silverstripe-minicart": "dev-master"
-    },
-   
+    },   
     "authors": [
         {
             "name": "Dynamic Inc",
