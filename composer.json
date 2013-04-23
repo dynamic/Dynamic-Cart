@@ -1,0 +1,20 @@
+{
+    "name": "dynamic/mini-cart-catalog",
+    "description": "The Dynamic Mini Cart Product Catalog",
+    "keywords": ["silverstripe", "minicart", "module", "product", "catalog"],
+    "license": "BSD-3-Clause",
+    "type": "silverstripe-module",
+    "require": {
+    	"silverstripe/framework": ">=3.0"
+    },
+   
+    "authors": [
+        {
+            "name": "Dynamic Inc",
+            "homepage": "http://dynamicdoes.com"
+        }
+    ],
+	"extra": {
+		"installer-name": "products"
+	}
+}
