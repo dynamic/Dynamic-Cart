@@ -1,6 +1,6 @@
 ## Overview
 
- Silverstripe module for a simple shopping cart. All back office managed by PayPal. Requires PayPal Mini Cart Module.
+ Silverstripe module to create a product catalog on your website. Functions as an ecommerce platform when SilverStripe MiniCart module is installed, with checkout being managed by PayPal.
 
 ## Installation ##
 

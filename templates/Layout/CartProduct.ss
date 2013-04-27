@@ -13,8 +13,10 @@
 
 			<div class="content">$Content</div>
 			
-			<p class="CartButton">[mini_cart_item name="$Title.XML" price="$Price.XML"]Add To Cart[/mini_cart_item]</p>
-			<p>$ViewCart(View Cart)</p>
+			<% if ShoppingCart %>
+				<p class="CartButton">[mini_cart_item name="$Title.XML" price="$Price.XML"]Add To Cart[/mini_cart_item]</p>
+				<p>$ViewCart(View Cart)</p>
+			<% end_if %>
 		</div>
 	</article>
 		

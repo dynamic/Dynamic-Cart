@@ -46,6 +46,10 @@ class CartProduct extends Page {
 		return $fields;
 	}
 	
+	public function getShoppingCart() {
+		return class_exists('MiniCart');
+	}
+	
 }
 
 class CartProduct_Controller extends Page_Controller {
