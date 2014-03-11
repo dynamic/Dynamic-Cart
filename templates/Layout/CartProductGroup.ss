@@ -28,7 +28,7 @@
 			<li><a class="prev" href="$Products.PrevLink">Prev</a></li>
 		<% end_if %>
 		
-		<% control Products.PaginationSummary(4) %>
+		<% loop Products.PaginationSummary(4) %>
 			<% if CurrentBool %>
 				<li class="current">$PageNum</li>
 			<% else %>
@@ -38,7 +38,7 @@
 					<li>&hellip;</li>
 				<% end_if %>
 			<% end_if %>
-		<% end_control %>
+		<% end_loop %>
 
 		<% if Products.NotLastPage %>
 			<li><a class="next" href="$Products.NextLink">Next</a></li>
